@@ -1,0 +1,98 @@
+body{
+  height: 100vh;
+    background: url(wallpaperflare.com_wallpaper.jpg);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    opacity: 0.8;
+}
+.container {
+    width: 15rem;
+    height: 20rem;
+    margin: 0 auto;
+    padding: 20px;
+    border: 5px solid #ccc;
+    border-radius: 30px;
+    height: 440px;
+    width: 350px;
+    
+  }
+  .container:hover{
+    box-shadow: 3px 3px 100px 0 rgba(0, 0, 0, 0.9);
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:30px;
+
+  }
+  
+ 
+  input{
+    padding: 10px;
+    color: #000;
+    margin-bottom: 10px;
+    width: 100%;
+    
+    border-radius: 30px;
+  }
+  input:hover{
+    padding: 11px;
+    box-shadow: 3px 3px 10px 0 rgba(255,255,255,0.9);
+
+  }
+  
+  h1{
+    text-align: center;
+    color:  white;
+  }
+  footer{
+  font-size: 12px;
+  color: #ccc;
+  display: flex;
+
+  }
+  button[type="submit"] {
+    padding: 10px;
+    background-color: #c9009d;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+    width: 110%;
+    margin-bottom: 10px;
+    border-radius: 30px;
+  }
+  button:hover {
+      padding: 11px;
+      box-shadow: 3px 3px 10px 0 rgba(255,255,255,0.9);
+    
+  }
+  a{
+  color: white;
+  
+    font-size: 15px;
+    margin-top: 20px;
+    text-align: center;
+     }
+  a:hover{
+    color: rgb(245, 7, 205);
+  }
+  .avatar {
+  width: 100px;
+  height: 100px;
+   border-radius: 50%;
+   }
+  .for{
+    padding-right: 140px;
+  }
+  .for:hover{
+    color: rgb(245, 7, 205);
+  }
